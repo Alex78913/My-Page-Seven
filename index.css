@@ -12,10 +12,11 @@ body {
 .header {
   height: 100px;
   background: linear-gradient(
-    to bottom,
+    to bottom right,
     rgba(236, 0, 0, 0.936),
-    rgba(26, 3, 232, 0.77)
+    rgb(14, 5, 87)
   );
+  box-shadow: 2px 2px 2px 2px black;
 }
 .article {
   height: 500px;
@@ -63,17 +64,27 @@ body {
   margin-bottom: 10px;
 }
 .buy {
+  color: white;
   height: 50px;
   width: 300px;
-  background-color: rgba(244, 11, 11, 0.748);
   text-align: center;
+  background: linear-gradient(
+    to bottom right,
+    rgba(236, 0, 0, 0.936),
+    rgb(14, 5, 87)
+  );
   font-size: 30px;
   font-weight: 700;
   padding-top: 20px;
+  box-shadow: 2px 2px 2px 2px black;
 }
 .buy:hover {
-  color: white;
-  background-color: rgba(255, 0, 0, 0.785);
+  background: linear-gradient(
+    to top left,
+    rgba(236, 0, 0, 0.936),
+    rgb(14, 5, 87)
+  );
+  box-shadow: 5px 5px 5px 5px black;
 }
 .nav {
   width: 250px;
@@ -83,16 +94,18 @@ body {
   padding-top: 30px;
   height: 70px;
   text-align: center;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 .nav:hover {
   background: linear-gradient(
-    to bottom right,
-    rgba(122, 8, 8, 0.936),
-    rgb(8, 2, 51)
+    to top left,
+    rgba(236, 0, 0, 0.936),
+    rgb(14, 5, 87)
   );
-  color: white;
   height: 66px;
   width: 246px;
   border: solid 2px black;
+  box-shadow: 5px 5px 5px 5px black;
+  text-shadow: 10px 10px 10px black;
 }
