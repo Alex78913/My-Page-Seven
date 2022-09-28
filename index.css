@@ -2,7 +2,7 @@
   font-family: sans-serif;
 }
 body {
-  background: linear-gradient(to top, rgba(236, 0, 0, 0.936), rgb(14, 5, 87));
+  background-color: orangered;
 }
 .container {
   width: 1000px;
@@ -11,11 +11,7 @@ body {
 }
 .header {
   height: 100px;
-  background: linear-gradient(
-    to bottom right,
-    rgba(236, 0, 0, 0.936),
-    rgb(14, 5, 87)
-  );
+  background-color: rgb(13, 13, 165);
   box-shadow: 2px 2px 2px 2px black;
 }
 .article {
@@ -33,22 +29,12 @@ body {
 .aside {
   height: 300px;
   width: 1000px;
-  background: linear-gradient(
-    to bottom right,
-    rgba(236, 0, 0, 0.936),
-    rgb(14, 5, 87)
-  );
-  clear: both;
+  background-color: green;
   margin-bottom: 10px;
 }
 .footer {
   height: 100px;
-  background: linear-gradient(
-    to bottom right,
-    rgba(236, 0, 0, 0.936),
-    rgb(14, 5, 87)
-  );
-  clear: both;
+  background-color: green;
 }
 .box {
   height: 400px;
@@ -60,30 +46,23 @@ body {
 .back {
   height: 320px;
   width: 300px;
-  background-color: lightgoldenrodyellow;
+  background-color: lightyellow;
   margin-bottom: 10px;
 }
 .buy {
   color: white;
-  height: 50px;
+  height: 70px;
   width: 300px;
   text-align: center;
-  background: linear-gradient(
-    to bottom right,
-    rgba(236, 0, 0, 0.936),
-    rgb(14, 5, 87)
-  );
+  background-color: rgb(4, 93, 4);
   font-size: 30px;
   font-weight: 700;
   padding-top: 20px;
+  box-sizing: border-box;
   box-shadow: 2px 2px 2px 2px black;
 }
 .buy:hover {
-  background: linear-gradient(
-    to top left,
-    rgba(236, 0, 0, 0.936),
-    rgb(14, 5, 87)
-  );
+  background-color: green;
   box-shadow: 5px 5px 5px 5px black;
 }
 .nav {
@@ -92,20 +71,24 @@ body {
   font-size: 25px;
   font-weight: 700;
   padding-top: 30px;
-  height: 70px;
+  height: 100px;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 2px black;
+  box-shadow: 1px 1px 1px 1px black;
+  box-sizing: border-box;
 }
 .nav:hover {
-  background: linear-gradient(
-    to top left,
-    rgba(236, 0, 0, 0.936),
-    rgb(14, 5, 87)
-  );
-  height: 66px;
-  width: 246px;
+  background-color: rgba(0, 0, 255, 0.353);
+  height: 100px;
+  width: 250px;
   border: solid 2px black;
   box-shadow: 5px 5px 5px 5px black;
-  text-shadow: 10px 10px 10px black;
+}
+.clearfix {
+  clear: both;
+}
+.logos {
+  height: 100%;
+  width: 100%;
 }
